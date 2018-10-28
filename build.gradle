@@ -46,19 +46,19 @@ bootJar {
 dependencies {
 	// https://mvnrepository.com/artifact/com.github.zhanhb/thymeleaf-layout-dialect
 	compile group: 'com.github.zhanhb', name: 'thymeleaf-layout-dialect', version: '2.3.0'
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.0.6.RELEASE'
 
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.6.RELEASE'
 
-// https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-kotlin
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-kotlin
 	compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-kotlin', version: '2.9.7'
 
-// https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk8
+	// https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk8
 	compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8', version: '1.2.71'
 
-// https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
+	// https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
 	compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.2.71'
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
