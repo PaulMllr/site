@@ -1,13 +1,23 @@
 
 .main {
-    margin-top: 8em;
+    margin-top: 6em;
 }
 
 body {
+    color: #687587;
+}
 
+h1 {
+    font-size: 4em;
 }
 
 .navbar {
     background-color: #779dc9;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.26);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.26);
+}
+
+.info-row {
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid #0000001c;
 }
