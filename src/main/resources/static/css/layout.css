@@ -1,6 +1,6 @@
 
 .main {
-    margin-top: 6em;
+    margin-top: 4em;
 }
 
 body {
@@ -11,6 +11,10 @@ h1 {
     font-size: 4em;
 }
 
+h4 {
+    margin-top: 1em;
+}
+
 .navbar {
     background-color: #779dc9;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.26);
@@ -18,6 +22,15 @@ h1 {
 
 .info-row {
     margin-top: 2em;
-    padding-top: 2em;
+    padding-top: 1em;
     border-top: 1px solid #0000001c;
 }
+
+.badge-span {
+    border-radius: 15px;
+    border: 2px solid #61788f9e;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0.2em;
+}
+

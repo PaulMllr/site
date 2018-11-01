@@ -11,7 +11,25 @@ class RootController {
 
     @RequestMapping
     fun getRoot(request: HttpServletRequest, model: Model): String {
-        model.addAttribute("message","Coming soon")
+        model.addAttribute("interests", listOf(
+                "JVM",
+                "High-availability",
+                "High-loaded applications",
+                "Performance profiling & optimisation",
+                "Distributed applications",
+                "Web-services",
+                "RESTful services",
+                "Micro-services",
+                "SQL",
+                "NoSQL",
+                "Artificial Intelligence",
+                "Artificial neural networks",
+                "Machine learning"))
+        model.addAttribute("techs", listOf(
+                "Java 8",
+                "Kotlin",
+                "VisualVM"
+                ))
         return "homepage"
     }
 

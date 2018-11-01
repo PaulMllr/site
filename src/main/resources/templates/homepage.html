@@ -10,7 +10,13 @@
         <div class="row info-row">
             <div class="col-md-10 offset-md-1">
                 <h4 class="about-header">About me</h4>
-                I'm a software engineer with more than 6 years of experience in backend and full-stack development of complex web applications
+                I'm a software engineer with more than 6 years of experience in backend and full-stack
+                development of complex distributed web applications. My primary approach is to find the simplest,
+                reliable, and robust solution to achieve the business goals.
+                <h4>The scope of my interests</h4>
+                <span th:each="interest : ${interests}" class="badge-span" th:utext="${interest}"></span>
+                <h4>My tech stack</h4>
+                <span th:each="tech : ${techs}" class="badge-span" th:utext="${tech}"></span>
             </div>
         </div>
     </div>
