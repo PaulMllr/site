@@ -47,5 +47,19 @@
     "protobuf",
     "Nginx",
     "CentOS"
+  ],
+  "contacts": [
+    {
+      "url": "https://github.com/PaulMllr",
+      "icon": "ei-sc-github"
+    },
+    {
+      "url": "https://www.linkedin.com/in/paul-laktiushkin",
+      "icon": "ei-sc-linkedin"
+    },
+    {
+      "url": "https://join.skype.com/invite/IFepqFkYJ1Ab",
+      "icon": "ei-sc-skype"
+    }
   ]
 }
