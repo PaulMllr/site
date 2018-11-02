@@ -3,20 +3,32 @@
     <div layout:fragment="content">
         <div class="row">
             <div class="col-md-8 offset-md-1">
-                <h1>Pavel Laktiushkin</h1>
-                <h2>Software engineering enthusiast</h2>
+                <h1 th:utext="${name}">My name</h1>
+                <h2 th:utext="${nameDesc}">My description</h2>
             </div>
         </div>
         <div class="row info-row">
             <div class="col-md-10 offset-md-1">
                 <h4 class="about-header">About me</h4>
-                I'm a software engineer with more than 6 years of experience in backend and full-stack
-                development of complex distributed web applications. My primary approach is to find the simplest,
-                reliable, and robust solution to achieve the business goals.
+                <span th:utext="${aboutText}"></span>
                 <h4>The scope of my interests</h4>
                 <span th:each="interest : ${interests}" class="badge-span" th:utext="${interest}"></span>
                 <h4>My tech stack</h4>
                 <span th:each="tech : ${techs}" class="badge-span" th:utext="${tech}"></span>
+                <h4>Contact me</h4>
+                <span th:utext="${contactText}"></span>
+                <div class="contact-block">
+                <a href="https://github.com/PaulMllr">
+                    <div data-icon="ei-sc-github" data-size="l"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/paul-laktiushkin">
+                    <div data-icon="ei-sc-linkedin" data-size="l"></div>
+                </a>
+                <a href="https://join.skype.com/invite/IFepqFkYJ1Ab">
+                    <div data-icon="ei-sc-skype" data-size="l"></div>
+                </a>
+                </div>
+
             </div>
         </div>
     </div>

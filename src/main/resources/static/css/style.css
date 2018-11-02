@@ -1,0 +1,64 @@
+.main {
+    margin-top: 2em;
+}
+
+body {
+    color: #687587;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h4 {
+    margin-top: 1em;
+}
+
+.navbar {
+    background-color: #779dc9;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.26);
+}
+
+.info-row {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #0000001c;
+}
+
+.badge-span {
+    border-radius: 15px;
+    border: 2px solid #61788f9e;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0.2em;
+}
+
+.contact-block {
+		margin-top: 1em;
+}
+
+.icon--l {
+		width: 70px !important;
+		height: 70px !important;
+}
+
+.made-by{
+    font-size: 0.7em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.made-by-link {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.footer-block {
+		margin-top: 10em;
+		text-align: center;
+		height: 3em;
+}
+
