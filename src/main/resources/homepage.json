@@ -1,7 +1,7 @@
 {
   "name": "Pavel Laktiushkin",
   "nameDesc": "Software engineering enthusiast",
-  "aboutText": "I'm a software engineer with more than 6 years of experience in backend and full-stack development of complex distributed web applications. My primary approach is to find the simplest, reliable, and robust solution to achieve the business goals.",
+  "aboutText": "I'm a software engineer with more than 6 years of experience in backend and full-stack development of complex distributed web applications. My primary approach is to find the simplest, reliable, and robust solution to achieve the business goals. Code readability, simplicity, extensibility, and ease of support are vital as far as I am concerned. I am a team player. I believe that collaboration of highly motivated may result in very fruitful synergistic effect. I have played various roles - starting from a junior developer to the tech leader and the architect. I also have experience in being all-in-one engineer in a complex web application.",
   "contactText": "Feel free to contact me! I am open to any new opportunities regarding collaboration and my field of interests.",
   "interests": [
     "JVM",
@@ -60,6 +60,23 @@
     {
       "url": "https://join.skype.com/invite/IFepqFkYJ1Ab",
       "icon": "ei-sc-skype"
+    }
+  ],
+  "certificates": [
+    {
+      "imageUrl": "https://acclaim-production-app.s3.amazonaws.com/images/f446c716-a7f2-4d9b-9ac8-19800307476c/Oracle-Certification-badge_OC-Associate.png",
+      "url": "https://www.youracclaim.com/badges/91d300cf-0ebc-4eb3-bcd9-7d2a887388c5",
+      "description": "Oracle Certified Associate, Java SE 7 Programmer"
+    },
+    {
+      "imageUrl": "https://acclaim-production-app.s3.amazonaws.com/images/d1537a43-ea58-4cb9-a653-a40a199006a5/Oracle-Certification-badge_OC-Professional.png",
+      "url": "https://www.youracclaim.com/badges/3ba4aa8f-a9f3-47d3-8bfe-c8d455d1bd10",
+      "description": "Oracle Certified Professional, Java SE 7 Programmer"
+    },
+    {
+      "imageUrl": "https://yt3.ggpht.com/a-/AN66SAxzNKyT_CSVfL2r35Qf_-Z3SV7Ph5XxXSBe0g=s900-mo-c-c0xffffffff-rj-k-no",
+      "url": "https://www.ielts.org/about-the-test/how-ielts-is-scored",
+      "description": "IELTS General 8.0"
     }
   ]
 }
