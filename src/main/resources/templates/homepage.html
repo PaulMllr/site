@@ -9,13 +9,13 @@
         </div>
         <div class="row info-row">
             <div class="col-sm-12 col-md-10">
-                <h4 class="about-header">About me</h4>
+                <h4 class="about-header" th:utext="#{homepage.headers.about}"></h4>
                 <span th:utext="${aboutText}"></span>
-                <h4>The scope of my interests</h4>
+                <h4 th:utext="#{homepage.headers.interests}"></h4>
                 <span th:each="interest : ${interests}" class="badge-span" th:utext="${interest}"></span>
-                <h4>My tech stack</h4>
+                <h4 th:utext="#{homepage.headers.tech}"></h4>
                 <span th:each="tech : ${techs}" class="badge-span" th:utext="${tech}"></span>
-                <h4>Contact me</h4>
+                <h4 th:utext="#{homepage.headers.contact}"></h4>
                 <span th:utext="${contactText}"></span>
                 <div class="contact-block">
                     <th:block th:each="contact : ${contacts}" th:object="${contact}">
