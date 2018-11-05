@@ -29,7 +29,7 @@
                 <th:block th:each="cert : ${certificates}" th:object="${cert}">
                     <div class="certificate-container">
                         <a th:href="*{url}">
-                            <img class="certificate-image" th:src="*{imageUrl}">
+                            <img class="certificate-image" th:src="*{imageUrl}" alt="*{description}">
                             <span th:utext="*{description}"></span>
                         </a>
                     </div>
