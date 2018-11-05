@@ -1,4 +1,4 @@
 # site
 Portfolio site based on Kotlin, Spring MVC, Thymeleaf, and Bootstrap 4
 
-The content is fully configured via a JSON resource file, see resources/homepage.json
+The content is fully customised according to your profile via a JSON resource file, see /src/main/resources/homepage.json
