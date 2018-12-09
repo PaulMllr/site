@@ -19,7 +19,7 @@ const val HOMEPAGE_VIEW_NAME = "homepage"
 class HomepageController {
 
     @Autowired
-    var dataSourceService: DataSourceService = DataSourceService()
+    lateinit var dataSourceService: DataSourceService
 
     @RequestMapping
     fun getHomepage(request: HttpServletRequest, model: Model): String {
