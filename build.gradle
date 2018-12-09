@@ -64,9 +64,6 @@ dependencies {
 	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.7'
 
-	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
-	compile group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.0.6.RELEASE'
-
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('org.springframework.security:spring-security-test')
