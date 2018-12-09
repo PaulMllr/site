@@ -1,13 +1,32 @@
-<th:block layout:decorate="~{layout/fullPageLayout}">
+<th:block layout:decorate="~{layout/fullPageLayout}" xmlns:th="http://www.w3.org/1999/xhtml">
 
     <head>
         <title>Codenetics - My projects</title>
     </head>
 
     <div layout:fragment="content">
+        <h1 th:utext="${title}">Projects</h1>
+        <br/>
         <div class="row">
-            <div class="col-md-8 offset-md-1">
-                <h1>Coming soon</h1>
+            <div class="col-md-8 col-xs-12">
+                <div th:each="project : ${projects}" th:object="${project}" class="project-container">
+                    <h2 th:utext="*{name}"></h2>
+                    <div>
+                        <b>Company: </b>
+                        <span th:text="*{company}"></span>
+                    </div>
+                    <div th:if="*{!url.isEmpty()}">
+                        <b>Web: </b>
+                        <a th:text="*{url}" th:href="*{url}"></a>
+                    </div>
+                    <div>
+                        <b>Duties: </b>
+                        <span th:text="*{duties}"></span>
+                    </div>
+                    <div class="project-description" th:utext="*{description}">
+                    </div>
+                    <span th:each="tech : ${project.techs}" class="badge-span" th:utext="${tech}"></span>
+                </div>
             </div>
         </div>
     </div>

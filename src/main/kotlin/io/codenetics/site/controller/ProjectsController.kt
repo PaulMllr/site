@@ -1,5 +1,7 @@
 package io.codenetics.site.controller
 
+import io.codenetics.site.service.DataSourceService
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
@@ -16,8 +18,13 @@ const val PROJECTS_VIEW_NAME = "projects/projects"
 @RequestMapping("/projects")
 class ProjectsController {
 
+    @Autowired
+    lateinit var dataSourceService: DataSourceService
+
+
     @GetMapping
     fun getProjects(request: HttpServletRequest, model: Model): String {
+        model.addAllAttributes(dataSourceService.formProjectsPageData())
         return PROJECTS_VIEW_NAME
     }
 }
