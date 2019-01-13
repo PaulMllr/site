@@ -5,8 +5,8 @@
     {
       "name": "Video Cloud",
       "company": "Rhonda Software",
-      "url": "http://www.rhondasoftware.com/camera-imaging/video-cloud",
-      "description": "Rhonda Celesta Cloud is a distributed high-available scalable complex platform designed to receive, store, and deliver multimedia and other data.",
+      "url": "https://www.rhondasoftware.com/#software",
+      "description": "Rhonda Celesta Cloud is a distributed high-available scalable multi-component platform designed to receive, store, and deliver multimedia and other data.",
       "duties": "Backend platform: Feature design and development, bug fixing, performance profiling and optimising",
       "techs": [
         "Java 8",
@@ -30,6 +30,7 @@
         "Reverbrain-elliptics",
         "VisualVM",
         "NGINX",
+        "ffmpeg",
         "REST",
         "WS",
         "CentOS7",
@@ -38,14 +39,29 @@
       ]
     },
     {
+      "name": "Versatile end-to-end framework for cameras testing",
+      "company": "Rhonda Software",
+      "url": "",
+      "description": "A unified solution for high-level testing camera devices. Since the company concentrates on camera embedded software development, there appeared a need to develop a single unified approach to automated testing of multimedia devices. The framework is a flexible platform which can be customised and tuned according to device-under-test specifications and write very simple and human-readable tests. The solution is being used all camera projects in the company.",
+      "duties": "Design and Architecture, Technical Lead",
+      "techs": [
+        "CPP",
+        "Boost",
+        "Protobuf",
+        "CppuTest",
+        "GCC",
+        "ffmpeg"
+      ]
+    },
+    {
       "name": "Corporate ERP",
       "company": "Rhonda Software",
       "url": "",
-      "description": "Modular web application which provides services for corporate needs. Implements both WebUI and REST API integration endpoints.",
-      "duties": "Full-stack design and development from scratch.",
+      "description": "Modular web application which provides services for corporate needs. Implements both WebUI(Thymeleaf) and REST API(SpringMVC) integration endpoints.",
+      "duties": "Technical lead, full-stack design and development from scratch.",
       "techs": [
-        "Java 11",
         "Kotlin",
+        "Java 11",
         "Lombok",
         "Maven",
         "Spring",
@@ -73,10 +89,10 @@
       "company": "YESP",
       "url": "http://yesp.market",
       "description": "A e-commerce platform, based on Broadleaf commerce, which implements the 'group buy' business process. The site consists of both user-side web application and admin web application.",
-      "duties": "Full-stack design and implementation(single developer)",
+      "duties": "Technical lead, full-stack design and implementation(single engineer)",
       "techs": [
-        "Java 8",
         "Kotlin",
+        "Java 8",
         "Lombok",
         "Maven",
         "Spring",
@@ -86,6 +102,7 @@
         "SpringSession",
         "SpringBoot",
         "Hibernate(JPA)",
+        "Apache SOLR",
         "Thymeleaf",
         "Redis",
         "JMS",
@@ -95,6 +112,8 @@
         "AJAX",
         "JQuery",
         "Bootstrap3",
+        "Nginx",
+        "Mailgun",
         "MySQL",
         "CentOS7",
         "Git"
