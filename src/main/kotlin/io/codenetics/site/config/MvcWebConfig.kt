@@ -17,10 +17,20 @@ class MvcWebConfig : WebMvcConfigurer {
 
 
     override fun addResourceHandlers(registry: ResourceHandlerRegistry) {
+        // Add static content handler
         registry
                 .addResourceHandler("/static/**")
                 .addResourceLocations("classpath:/static/", "/static/", "file:/static/")
                 .setCacheControl(CacheControl.maxAge(365, TimeUnit.DAYS))
+
+        // Add sitemap file handler
+        registry
+                .addResourceHandler("/sitemap.xml")
+                .addResourceLocations(
+                        "classpath:/static/sitemap.xml",
+                        "/static/sitemap.xml",
+                        "file:/static/sitemap.xml")
+                .setCacheControl(CacheControl.maxAge(1, TimeUnit.DAYS))
     }
 
 }
