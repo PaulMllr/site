@@ -21,6 +21,7 @@ class HomepageController {
     @Autowired
     lateinit var dataSourceService: DataSourceService
 
+
     @GetMapping
     fun getHomepage(request: HttpServletRequest, model: Model): String {
         model.addAllAttributes(dataSourceService.formHomePageData())
